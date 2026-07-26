@@ -1,8 +1,29 @@
 aid: fidocure
 name: Fidocure
-description: Fidocure is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  FidoCure is a translational precision-medicine service for canine cancer, developed by
+  One Health Company and backed by a16z. It combines next-generation genomic sequencing of a
+  dog's tumor at a CLIA-certified (human-grade) lab with tumor profiling and an AI-driven data
+  platform to identify cancer-driving mutations, then recommends personalized targeted
+  therapeutics that veterinarians can prescribe. FidoCure has guided treatment for thousands of
+  dogs across roughly 1,350 clinics and maintains the largest proprietary canine cancer dataset,
+  underpinning peer-reviewed research with Stanford, the Broad Institute, Tufts, and the
+  University of Georgia. FidoCure operates as a veterinarian-facing clinical service rather than a
+  public developer API; this profile captures its public identity, portal, and domain-security
+  posture for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/fidocure/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://fidocure.com/wp-content/uploads/2023/03/FidoCure_logo.jpeg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +32,45 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Precision Medicine
+- Veterinary
+- Genomics
+- Oncology
+- Healthcare
+- Pets
+- Diagnostics
 apis: []
+common:
+- type: DomainSecurity
+  url: security/fidocure-domain-security.yml
+- type: Website
+  url: https://fidocure.com/
+- type: About
+  url: https://fidocure.com/about-us/
+- type: Blog
+  url: https://blog.fidocure.com/fidocure-blog
+- type: Login
+  url: https://dvm.fidocure.com/
+- type: Support
+  url: https://fidocure.com/contact-us/
+- type: PrivacyPolicy
+  url: https://fidocure.com/privacy-policy/
+- type: TermsOfService
+  url: https://fidocure.com/terms-of-service/
+- type: Press
+  url: https://resources.fidocure.com/press
+- type: LinkedIn
+  url: https://www.linkedin.com/company/fidocure
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
